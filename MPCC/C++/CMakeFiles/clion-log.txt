@@ -1,0 +1,4 @@
+/home/pavel/clion-2019.2.5/bin/cmake/linux/bin/cmake -G "CodeBlocks - Unix Makefiles" /home/pavel/MPCC-FullScale/MPCC/C++
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pavel/MPCC-FullScale/MPCC/C++

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External/Eigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External/Json" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External/blasfeo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External/hpipm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External/matplotlib" vcs="Git" />
+  </component>
+</project>

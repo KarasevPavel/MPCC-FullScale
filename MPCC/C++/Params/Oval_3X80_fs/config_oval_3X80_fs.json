@@ -1,0 +1,15 @@
+
+{
+  "n_sqp": 2,
+  "n_reset": 5,
+  "sqp_mixing" : 0.8,
+  "n_sim": 150,
+  "Ts": 0.05,
+  "v0": 45,
+
+  "model_path": "Params/Oval_3X80_fs/model_oval_3X80_fs.json",
+  "cost_path": "Params/Oval_3X80_fs/cost_oval_3X80_fs.json",
+  "bounds_path": "Params/Oval_3X80_fs/bounds_oval_3X80_fs.json",
+  "track_path": "Params/Oval_3X80_fs/track_oval_3X80.json",
+  "normalization_path": "Params/Oval_3X80_fs/normalization_oval_3X80_fs.json"
+}

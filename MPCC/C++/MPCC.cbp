@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MPCC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pavel/MPCC-FullScale/MPCC/C++"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/pavel/MPCC-FullScale/MPCC/C++"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/pavel/MPCC-FullScale/MPCC/C++"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPCC">
+				<Option output="/home/pavel/MPCC-FullScale/MPCC/C++/MPCC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/MPCC-FullScale/MPCC/C++"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/."/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/blasfeo/lib/include"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/hpipm/lib/include"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/matplotlib"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/Eigen"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/Json/include"/>
+					<Add directory="/usr/include/python2.7"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 MPCC"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MPCC/fast">
+				<Option output="/home/pavel/MPCC-FullScale/MPCC/C++/MPCC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pavel/MPCC-FullScale/MPCC/C++"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/."/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/blasfeo/lib/include"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/hpipm/lib/include"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/matplotlib"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/Eigen"/>
+					<Add directory="/home/pavel/MPCC-FullScale/MPCC/C++/External/Json/include"/>
+					<Add directory="/usr/include/python2.7"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 MPCC/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/pavel/MPCC-FullScale/MPCC/C++/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Constraints/bounds.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Constraints/bounds.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Constraints/constraints.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Constraints/constraints.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Cost/cost.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Cost/cost.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Interfaces/hpipm_interface.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Interfaces/hpipm_interface.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Interfaces/solver_interface.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Interfaces/solver_interface.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/MPC/mpc.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/MPC/mpc.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Model/integrator.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Model/integrator.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Model/model.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Model/model.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Params/params.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Params/params.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Params/track.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Params/track.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Plotting/plotting.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Plotting/plotting.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Spline/arc_length_spline.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Spline/arc_length_spline.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Spline/cubic_spline.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Spline/cubic_spline.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/constratins_test.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/constratins_test.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/cost_test.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/cost_test.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/model_integrator_test.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/model_integrator_test.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/spline_test.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/Tests/spline_test.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/config.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/main.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/types.cpp">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/types.h">
+			<Option target="MPCC"/>
+		</Unit>
+		<Unit filename="/home/pavel/MPCC-FullScale/MPCC/C++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
